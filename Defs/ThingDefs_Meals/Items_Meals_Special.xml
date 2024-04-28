@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="SK_MealBase">
+		<defName>BuckwheatWithMeat</defName>
+		<label>Гречка с мясом</label>
+		<description>Гречка ароматная, рассыпчатая, не сухая, пропитанная подливой со специями. И нежные, сочные кусочки мяса.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/BuckwheatWithMeat</texPath>
+			 <graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>7</DeteriorationRate>
+			<MarketValue>8</MarketValue>
+			<Bulk>1.0</Bulk>
+			<Mass>0.7</Mass>
+			<Nutrition>0.85</Nutrition>
+		</statBases>
+		<stackLimit>10</stackLimit>
+		<ingestible>
+			<foodType>Meal, Processed</foodType>
+			<preferability>MealFine</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<tasteThought>AteLavishMeal</tasteThought>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HadBuckwheat</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>6</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+
+<ThingDef ParentName="SK_MealBase">
+		<defName>AroztWithMeat</defName>
+		<label>Вкусный Плов</label>
+		<description>Плов – еда для настоящих ценителей и гурманов, любимцев фортуны, воинов и философов..</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/AroztWithMeat</texPath>
+			 <graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>8</DeteriorationRate>
+			<MarketValue>6</MarketValue>
+			<Bulk>1.0</Bulk>
+			<Mass>0.55</Mass>
+			<Nutrition>0.65</Nutrition>
+		</statBases>
+		<stackLimit>10</stackLimit>
+		<ingestible>
+			<foodType>Meal, Processed</foodType>
+			<preferability>MealFine</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<tasteThought>AteLavishMeal</tasteThought>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HadAroztW</hediffDef>
+					<severity>0.9</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>6</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

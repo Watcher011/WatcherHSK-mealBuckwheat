@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef>
+		<defName>HadBuckwheat</defName>
+		<label>Прилив сил</label>
+		<description>Сила переполняет меня.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.7</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>0.01</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+				<hungerRateFactorOffset>-0.04</hungerRateFactorOffset>					
+			</li>
+		</stages>
+	</HediffDef>
+	
+	
+	
+	<HediffDef>
+		<defName>HadAroztW</defName>
+		<label>Ум вкусный Плов</label>
+		<description>Вкусный был плов,всё в жиру.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.8</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>0.03</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.08</offset>
+					</li>
+				</capMods>
+				<hungerRateFactorOffset>-0.07</hungerRateFactorOffset>					
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

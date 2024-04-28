@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  
+  
+	<RecipeDef ParentName="CookMealSpecialBase_SK">
+		<defName>MakeBuckwheatWithMeat</defName>
+		<label>Сделать Гречку с мясом (x2)</label>
+		<description>Сделать Гречка ароматная, рассыпчатая, не сухая, пропитанная подливой со специями. И нежные, сочные кусочки мяса.</description>
+		<jobString>Готовит гречку.</jobString>
+		<workAmount>800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Meat_Muffalo</li>
+						<li>MetalCannedMeat_prime</li>
+					</thingDefs>
+				</filter>
+				  <count>0.05</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawBuckwheat</li>
+					</thingDefs>
+				</filter>
+				<count>0.7</count>
+			</li>
+		</ingredients>
+		<products>
+		  <BuckwheatWithMeat>2</BuckwheatWithMeat>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Meat_Muffalo</li>
+				<li>MetalCannedMeat_prime</li>
+				<li>RawBuckwheat</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowPlantFood</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Meat_Muffalo</li>
+				<li>MetalCannedMeat_prime</li>
+				<li>RawBuckwheat</li>
+			</thingDefs>
+			<disallowedThingDefs>
+				<li>Meat_Megaspider</li>
+				<li>Meat_Human</li>
+			</disallowedThingDefs>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+		</defaultIngredientFilter>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+		<recipeUsers>
+			<li>FueledStove</li>
+		<li>ElectricStove_Pro</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	
+	
+	
+  
+	<RecipeDef ParentName="CookMealSpecialBase_SK">
+		<defName>MakeBuckwheatWithMeatBulk</defName>
+		<label>Сделать Гречку с мясом (x5)</label>
+		<description>Сделать Гречка ароматная, рассыпчатая, не сухая, пропитанная подливой со специями. И нежные, сочные кусочки мяса.</description>
+		<jobString>Готовит гречку.</jobString>
+		<workAmount>800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Meat_Muffalo</li>
+						<li>MetalCannedMeat_prime</li>
+					</thingDefs>
+				</filter>
+				  <count>0.25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawBuckwheat</li>
+					</thingDefs>
+				</filter>
+				<count>1.75</count>
+			</li>
+		</ingredients>
+		<products>
+		  <BuckwheatWithMeat>5</BuckwheatWithMeat>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Meat_Muffalo</li>
+				<li>MetalCannedMeat_prime</li>
+				<li>RawBuckwheat</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowPlantFood</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Meat_Muffalo</li>
+				<li>MetalCannedMeat_prime</li>
+				<li>RawBuckwheat</li>
+			</thingDefs>
+			<disallowedThingDefs>
+				<li>Meat_Megaspider</li>
+				<li>Meat_Human</li>
+			</disallowedThingDefs>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+		</defaultIngredientFilter>
+		<skillRequirements>
+			<Cooking>3</Cooking>
+		</skillRequirements>
+		<recipeUsers>
+			<li>FueledStove</li>
+		<li>ElectricStove_Pro</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="CookMealSpecialBase_SK">
+		<defName>MakeAroztWithMeat</defName>
+		<label>Сделать порцию плова (x2)</label>
+		<description>Сделать Плов — блюдо восточной кухни, основу которого составляет варёный рис и  нежные, сочные кусочки мяса.</description>
+		<jobString>Готовит плов.</jobString>
+		<workAmount>800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Meat_Muffalo</li>
+						<li>MetalCannedMeat_prime</li>
+					</thingDefs>
+				</filter>
+				  <count>0.08</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawCarrots</li>
+					</thingDefs>
+				</filter>
+				  <count>0.03</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawRice</li>
+					</thingDefs>
+				</filter>
+				<count>0.8</count>
+			</li>
+		</ingredients>
+		<products>
+		  <AroztWithMeat>2</AroztWithMeat>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Meat_Muffalo</li>
+				<li>MetalCannedMeat_prime</li>
+				<li>RawRice</li>
+				<li>RawCarrots</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowPlantFood</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Meat_Muffalo</li>
+				<li>MetalCannedMeat_prime</li>
+				<li>RawRice</li>
+				<li>RawCarrots</li>
+			</thingDefs>
+			<disallowedThingDefs>
+				<li>Meat_Megaspider</li>
+				<li>Meat_Human</li>
+			</disallowedThingDefs>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+		</defaultIngredientFilter>
+		<skillRequirements>
+			<Cooking>5</Cooking>
+		</skillRequirements>
+		<recipeUsers>
+			<li>FueledStove</li>
+		<li>ElectricStove_Pro</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	
+	
+	
+	
+	
+	<RecipeDef ParentName="CookMealSpecialBase_SK">
+		<defName>MakeAroztWithMeatBulk</defName>
+		<label>Сделать казан плова (x5)</label>
+		<description>Сделать Плов — блюдо восточной кухни, основу которого составляет варёный рис и  нежные, сочные кусочки мяса.</description>
+		<jobString>Готовит плов.</jobString>
+		<workAmount>800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Meat_Muffalo</li>
+						<li>MetalCannedMeat_prime</li>
+					</thingDefs>
+				</filter>
+				  <count>0.35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawCarrots</li>
+					</thingDefs>
+				</filter>
+				  <count>0.05</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawRice</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<products>
+		  <AroztWithMeat>5</AroztWithMeat>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Meat_Muffalo</li>
+				<li>MetalCannedMeat_prime</li>
+				<li>RawRice</li>
+				<li>RawCarrots</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowPlantFood</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Meat_Muffalo</li>
+				<li>MetalCannedMeat_prime</li>
+				<li>RawRice</li>
+				<li>RawCarrots</li>
+			</thingDefs>
+			<disallowedThingDefs>
+				<li>Meat_Megaspider</li>
+				<li>Meat_Human</li>
+			</disallowedThingDefs>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+		</defaultIngredientFilter>
+		<skillRequirements>
+			<Cooking>5</Cooking>
+		</skillRequirements>
+		<recipeUsers>
+			<li>FueledStove</li>
+		<li>ElectricStove_Pro</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+</Defs>
